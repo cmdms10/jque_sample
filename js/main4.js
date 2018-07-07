@@ -12,5 +12,11 @@ $(function(){
         'text-decoration':'none'
       });
     }
-  );
+  ).click(function(){
+    msg = $(this).attr('href');
+    var ans = confirm(msg + "に移動してもいいですか？");
+    if (!ans){
+      return false;
+    }
+  });
 });
