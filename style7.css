@@ -1,0 +1,16 @@
+#kotowaza {
+  font-size: 50pt;
+  font-weight: bold;
+  background: yellow;
+}
+
+.unsei {
+  font-size: 50pt;
+  font-weight: bold;
+  background: pink;
+}
+
+em {
+  color: blue;
+  font-style: normal;
+}
