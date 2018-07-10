@@ -1,0 +1,44 @@
+#loading {
+    text-align: center;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    margin: auto;
+}
+
+#loading p {
+    text-align: center;
+    font-size: 70px;
+}
+
+#gallery {
+    margin: 0 auto;
+    overflow: hidden;
+    transition: opacity 0.3s;
+    opacity: 0;
+    max-height: 100vh;
+    box-sizing: border-box;
+}
+
+#gallery.on {
+    opacity: 1;
+    max-height: 100%;
+}
+
+#gallery li {
+    max-width: 300px;
+    padding: 5px;
+}
+
+#gallery li img {
+    max-width: 100%;
+    height: auto;
+}
+ul {
+  list-style: none;
+}
