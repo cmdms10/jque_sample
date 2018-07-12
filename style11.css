@@ -1,0 +1,32 @@
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: mediumvioletred;
+}
+
+#wrap {
+    position: absolute;
+    width: 400px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    height: 24px;
+    width: 250px;
+    margin-top: 30px;
+    padding-left: 10px;
+    border-radius: 12px;
+    background-color: #ffffcc;
+}
+
+input:focus {
+    outline: none;
+    background-color: floralwhite;
+}
