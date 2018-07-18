@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./js/script/foxholder/src/foxholder-styles.css">
+  <script src="./js/jquery.js" charset="utf-8"></script>
+  <script src="./js/script/foxholder/src/foxholder.js" charset="utf-8"></script>
+  <title></title>
+</head>
+
+<body>
+  <br>
+  <form class="your-class">
+    <input id="your-id-1" type="text" placeholder="入力してください" /><br><br>
+    <textarea id="your-id-2" placeholder="入力してください"></textarea><br><br>
+    <button type="submit" data-size="bg" data-filled="filled" data-direction="diagonal">送信</button>
+</form>
+<script>
+jQuery('.your-class').foxholder({
+  placeholderDemo: 2, // for placeholder demo (1 - 15)
+  buttonDemo: 1 //for button demos (1 - 6), if you need a button effect
+});
+console.log("hello");
+
+</script>
+</body>
+
+</html>
